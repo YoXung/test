@@ -21,6 +21,7 @@
 
     <modules>
         <module>test_001</module>
+        <module>test_002</module>
     </modules>
 
     <dependencies>

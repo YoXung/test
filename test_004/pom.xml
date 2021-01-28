@@ -7,8 +7,8 @@
         <artifactId>test</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>test_002</artifactId>
-    <name>test_002</name>
+    <artifactId>test_004</artifactId>
+    <name>test_004</name>
     <description>Demo project for Spring Boot</description>
 
     <dependencies>

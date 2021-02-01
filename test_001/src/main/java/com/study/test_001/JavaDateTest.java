@@ -20,12 +20,12 @@ public class JavaDateTest {
         LocalDateTime dateTime = LocalDateTime.now();
         log.info("LocalDateTime得到的原始日期时间为：{}", dateTime);
         // 日期转字符
-        DateTimeFormatter formatter1 = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss a", Locale.ENGLISH);
+        DateTimeFormatter formatter1 = DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss a", Locale.ENGLISH);
         String str = dateTime.format(formatter1);
-        log.info("日期时间转字符串（带AM/PM）结果为：{}", str);
+        log.info("12/24小时日期时间转字符串（带AM/PM）结果为：{}", str);
         // 字符转日期
-        LocalDate date = LocalDate.parse(str, formatter1);
-        log.info("字符串转日期结果为：{}", date);
+        LocalDateTime date2 = LocalDateTime.parse(str, formatter1);
+        log.info("字符串转日期结果为：{}", date2);
 
     }
 }

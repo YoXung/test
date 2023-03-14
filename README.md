@@ -1,7 +1,7 @@
 # test
-[![java](https://img.shields.io/badge/Java-8-9cf)]()
-[![maven](https://img.shields.io/badge/Apache%20Maven-3.6.3-blue)]()
-[![SB](https://img.shields.io/badge/Spring%20Boot-2.4.2.RELEASE-lightgreen)]()
+[![java](https://img.shields.io/badge/Java-17-9cf)]()
+[![maven](https://img.shields.io/badge/Apache%20Maven-3.9.0-blue)]()
+[![SB](https://img.shields.io/badge/Spring%20Boot-3.0.4.RELEASE-lightgreen)]()
 [![SC](https://img.shields.io/badge/Spring%20Cloud-2020.0.0-green)]()
 [![SCA](https://img.shields.io/badge/Spring%20Cloud%20Alibaba-2.2.1.RELEASE-orange)](https://github.com/alibaba/spring-cloud-alibaba)
 
